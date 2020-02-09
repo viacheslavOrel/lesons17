@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ToDoList</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form class="toDoForm" data-target="toDoContent">
+		<input type="text" name="header" placeholder="Введите название задачи" required>
+		<input type="text" name="content" placeholder="Введите описание задачи" required>
+		<button type="reset">Очистить</button>
+		<button type="submit">Добавить</button>
+	</form>
+	<ul id="toDoContent"></ol>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+		    integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="app/taskList.js"></script>
+	<script type="text/javascript" src="app/app.js"></script>
+</body>
+</html>
