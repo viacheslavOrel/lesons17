@@ -4,11 +4,11 @@ const key = "toDoItem";
 
 const taskObj = new taskList($form, $target, key);
 
-/*$form.addEventListener("submit", event => {
+$form.addEventListener("submit", event => {
 	event.preventDefault();
 	taskObj.add();
 	event.reset();
-});*/
+});
 
 $target.addEventListener("click", event => {
 	if (event.target.classList.contains("btn-del")) {
